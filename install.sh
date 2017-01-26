@@ -51,10 +51,13 @@ apt-get install gnome-tweak-tool -y
 apt-get install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+#Atom
+add-apt-repository ppa:webupd8team/atom
+apt-get update
+apt-get install atom
+
 #Conky Manager
 apt-add-repository -y ppa:teejee2008/ppa
 apt-get update
 apt-get install conky-manager -y
-
-
 
