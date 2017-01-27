@@ -61,3 +61,6 @@ apt-add-repository -y ppa:teejee2008/ppa
 apt-get update
 apt-get install conky-manager -y
 
+#Enrytion GUI
+apt-get install seahorse 
+apt-get install seahorse-nautilus 
