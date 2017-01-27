@@ -64,3 +64,8 @@ apt-get install conky-manager -y
 #Enrytion GUI
 apt-get install seahorse 
 apt-get install seahorse-nautilus 
+
+#Upgrade all
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade
